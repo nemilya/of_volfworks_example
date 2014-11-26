@@ -1,4 +1,4 @@
-#include "testApp.h"
+#include "ofApp.h"
 
 const int N = 256;		//Number of bands in spectrum
 float spectrum[ N ];	//Smoothed spectrum values
@@ -153,8 +153,9 @@ void ofApp::draw(){
 	//Restore coordinate system
 	ofPopMatrix();
 
-  string fileName = "screen1.png";
-  ofSaveScreen(fileName);
+	//  test for saving
+  //  string fileName = "screen1.png";
+  //  ofSaveScreen(fileName);
 }
 
 //--------------------------------------------------------------
