@@ -18,4 +18,6 @@
 Запуск
 ------
 
+Важно: для успешной сборки, необходимо разместить эту папку (`of_volfworks_example`) в папке `examples\sound` openFrameworks.
+
 Открываем проект (файл `of_volfworks_example.workspace`), и нажимаем F9 для сборки.
